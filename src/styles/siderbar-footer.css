@@ -1,5 +1,6 @@
 body {
   background-color: #000;
+  font-family: var(--font-Montserrat);
 }
 
 h1 {
@@ -45,7 +46,6 @@ h1 {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  font-family: "DM Sans", sans-serif;
 }
 
 .library {
@@ -74,7 +74,6 @@ h1 {
   border: 0px;
   font-size: 1rem;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
   text-align: center;
   text-decoration: none;
   padding: 20px 10px;
@@ -114,7 +113,6 @@ h1 {
 .section-playlist__content .text {
   padding-bottom: 14px;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
 }
 
 .section-playlist__content .title {
@@ -134,7 +132,6 @@ h1 {
   border-radius: 20px;
   font-size: 12px;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   text-transform: none;
   padding: 10px;
@@ -168,4 +165,44 @@ h1 {
   width: 170px;
   padding: 8px;
   border-radius: 8px;
+}
+
+.disclaimer-premium {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  padding: 15px 40px;
+  justify-content: space-between;
+}
+
+.disclaimer-premium .text {
+  flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium_title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium_subtitle {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.disclaimer-premium button {
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
 }

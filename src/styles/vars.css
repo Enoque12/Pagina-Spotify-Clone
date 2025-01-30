@@ -1,0 +1,8 @@
+:root {
+  /* font*/
+  --font-Montserrat: "Montserrat", sans-serif;
+
+  /* Colors */
+  --bg-icon: #131313;
+  --bg-arrow-color: rgba(0, 0, 07);
+}
